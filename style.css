@@ -75,5 +75,6 @@ section{
 }
 section h1{
   max-width: 10%;
+  min-width: 10%;
   font-size: medium;
 }
