@@ -22,5 +22,14 @@ THEN the saved events persist
 
 * Screenshot
 
-![GitHub Logo] ()
+![GitHub Logo] (/images/logo.png)
 
+* Link
+
+file:///Users/sabrinaelkins/Downloads/super-disco-main/Develop/index.html
+
+* Developed By Sabrina Elkins
+
+* What I learned
+I learned how to create a calander with working functions using moment.js
+I learned that I can save my schedule data in the local storage so that when I reload the page it stays in the console 
