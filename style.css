@@ -69,3 +69,11 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+section{
+  display: flex;
+}
+section h1{
+  max-width: 10%;
+  font-size: medium;
+}

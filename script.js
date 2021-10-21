@@ -1,4 +1,5 @@
 $(document).ready(function () {
 
-    int yourInt = Calendar.getInstance();
-    Calendar cal = 
+var currentDate = moment().format("MMM Do YY");  
+$("#currentDay").text(currentDate)
+})
