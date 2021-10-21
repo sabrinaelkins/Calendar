@@ -72,7 +72,10 @@ textarea{
 
 section{
   display: flex;
+  margin: 1%;
+  padding: 1%;
 }
+
 section h1{
   max-width: 10%;
   min-width: 10%;

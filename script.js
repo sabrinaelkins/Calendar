@@ -12,5 +12,14 @@ $(document).ready(function () {
     for (let i = 9; i < 19; i++) {
         var userSchedule = localStorage.getItem(i)
         $("#" + i + "-plan").val(userSchedule)
+        if(i> currentHour){
+            $("#" + i + "-plan").addClass("future")
+        }
+        else if(i=== currentHour){
+            $("#" + i + "-plan").addClass("present")
+        }
+        else {
+            $("#" + i + "-plan").addClass("past")
+        }
     }
 })
